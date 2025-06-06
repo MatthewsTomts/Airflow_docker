@@ -1,0 +1,88 @@
+{"timestamp":"2025-06-06T17:17:32.786404","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-06T17:17:32.787145","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto_airflow/projeto_airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-06T17:17:33.671292Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:17:34.909332Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:17:34.909725Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:17:34.909896Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:17:35.222333Z","level":"error","event":"25/06/06 17:17:35 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.483631Z","level":"info","event":"45","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794148Z","level":"info","event":"+-----+----+-------------------+-------------------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794334Z","level":"info","event":"|   ID| Age|              Email|           JoinDate|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794407Z","level":"info","event":"+-----+----+-------------------+-------------------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794469Z","level":"info","event":"|    0|  52|     grace@mail.com|2023-05-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794529Z","level":"info","event":"| ID_1|  45|       bob@mail.com|2022-06-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794582Z","level":"info","event":"|    2|  41|  grace@example.com|2020-01-17 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794621Z","level":"info","event":"|    3|  38|   charlie@test.org|2022-07-24 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794658Z","level":"info","event":"|    4|  57|       eli@mail.com|2022-05-30 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794702Z","level":"info","event":"| ID_5|  20|     grace@mail.com|2022-12-12 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794758Z","level":"info","event":"|    8|  68|     grace@test.org|2023-06-14 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794814Z","level":"info","event":"|    9|  55|       eli@test.org|2020-08-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794869Z","level":"info","event":"|   12|  27|    ian@example.com|2021-06-02 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794923Z","level":"info","event":"|   13|  43|    bob@example.com|2022-01-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.794980Z","level":"info","event":"|   17|  26|     grace@mail.com|2023-01-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795036Z","level":"info","event":"|   18|  38|  grace@example.com|2022-12-02 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795081Z","level":"info","event":"|   19|  58|     frank@test.org|2022-05-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795118Z","level":"info","event":"|   21|  70|  frank@example.com|2021-01-24 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795163Z","level":"info","event":"|   22|  20|       ian@mail.com|2020-06-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795270Z","level":"info","event":"|   23|  45|user[at]example.com|2023-04-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795319Z","level":"info","event":"|   24|  26|  frank@example.com|2023-10-26 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795375Z","level":"info","event":"|   25|  37|user[at]example.com|2023-12-27 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795425Z","level":"info","event":"|   26|  58|   user[at]mail.com|2021-05-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795476Z","level":"info","event":"|   27|  36|    hannah@test.org|2020-06-23 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795529Z","level":"info","event":"|   29|NULL|      dana@mail.com|2022-11-08 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795580Z","level":"info","event":"|   30|  40|       eli@mail.com|2023-06-05 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795618Z","level":"info","event":"|   31|NULL|   charlie@mail.com|2020-09-03 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795652Z","level":"info","event":"|   33|  64|  grace@example.com|2021-07-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795686Z","level":"info","event":"|   34|NULL|       ian@test.org|2022-09-01 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795735Z","level":"info","event":"|   35|  43|       bob@test.org|2021-03-24 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795789Z","level":"info","event":"|   36|  59| hannah@example.com|2020-10-27 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795842Z","level":"info","event":"|   38|  35|    ian@example.com|2022-02-12 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795893Z","level":"info","event":"|   39|  63|    bob@example.com|2020-12-07 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.795946Z","level":"info","event":"|   40|  30|  frank@example.com|2022-10-04 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796000Z","level":"info","event":"|   42|  55|       eli@test.org|2021-09-14 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796052Z","level":"info","event":"|   44|  42|     alice@test.org|2020-04-24 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796094Z","level":"info","event":"|   46|  36|    hannah@test.org|2022-12-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796129Z","level":"info","event":"|   47|NULL|       eli@test.org|2021-09-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796165Z","level":"info","event":"|ID_48|NULL|     frank@test.org|2021-01-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796227Z","level":"info","event":"|   49|  46|     alice@test.org|2022-12-15 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796288Z","level":"info","event":"|   50|  27|       eli@mail.com|2020-09-12 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796337Z","level":"info","event":"|   51|  22|     grace@mail.com|2022-07-04 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796383Z","level":"info","event":"|   52|  29|  grace@example.com|2021-07-10 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796428Z","level":"info","event":"|   53|  30|    ian@example.com|2022-10-07 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796473Z","level":"info","event":"|   54|  52|     grace@test.org|2020-08-17 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796518Z","level":"info","event":"|   55|  32|  alice@example.com|2021-10-26 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796586Z","level":"info","event":"|   56|  57|       bob@mail.com|2021-08-28 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796638Z","level":"info","event":"|   58|  47|charlie@example.com|2020-10-10 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796689Z","level":"info","event":"|   59|  64|    hannah@mail.com|2022-06-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796727Z","level":"info","event":"|   64|  51|       eli@mail.com|2023-03-15 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796765Z","level":"info","event":"|   65|NULL|   user[at]mail.com|2023-01-28 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796816Z","level":"info","event":"|   66|  53|     alice@mail.com|2022-04-13 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796866Z","level":"info","event":"|   67|  56|      dana@mail.com|2023-01-10 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796914Z","level":"info","event":"|ID_68|  59|       eli@mail.com|2023-10-15 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.796963Z","level":"info","event":"|   70|  44|  grace@example.com|2022-12-09 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797009Z","level":"info","event":"|   72|  43|       ian@test.org|2023-05-10 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797054Z","level":"info","event":"|   73|  47|     grace@test.org|2020-05-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797101Z","level":"info","event":"|   74|  45|charlie@example.com|2022-03-28 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797156Z","level":"info","event":"|   75|  42|       ian@mail.com|2023-10-15 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797205Z","level":"info","event":"|   76|  45|       ian@mail.com|2020-05-24 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797282Z","level":"info","event":"|   77|  56|    hannah@test.org|2022-06-15 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797320Z","level":"info","event":"|   78|  46|    hannah@test.org|2022-08-21 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797353Z","level":"info","event":"|   81|  54|   dana@example.com|2021-04-23 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797390Z","level":"info","event":"|   82|  54|   user[at]test.org|2020-06-28 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797448Z","level":"info","event":"|   83|  38|   user[at]mail.com|2022-07-01 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797499Z","level":"info","event":"|   84|  40|   user[at]mail.com|2020-08-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797548Z","level":"info","event":"|   89|  42|    hannah@mail.com|2021-07-27 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797598Z","level":"info","event":"|   90|  53|     grace@mail.com|2020-02-16 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797647Z","level":"info","event":"|   94|  23|      jill@mail.com|2023-03-09 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797694Z","level":"info","event":"|   95|  64|     grace@mail.com|2021-04-30 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797744Z","level":"info","event":"|   96|  30|       eli@test.org|2022-08-10 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797798Z","level":"info","event":"|   99|  38|    ian@example.com|2021-02-23 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797869Z","level":"info","event":"+-----+----+-------------------+-------------------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.797920Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.859349Z","level":"info","event":"root","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.859508Z","level":"info","event":" |-- ID: integer (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.859568Z","level":"info","event":" |-- Age: integer (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.859622Z","level":"info","event":" |-- Email: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.859673Z","level":"info","event":" |-- JoinDate: date (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:41.859724Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:17:42.668686","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

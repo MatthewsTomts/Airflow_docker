@@ -1,0 +1,6 @@
+{"timestamp":"2025-05-30T19:15:56.764456","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-30T19:15:56.764917","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_with_post_hooks.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-30T19:15:56.785232","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-30T19:15:56.798689","level":"info","event":"Connection Retrieved 'postgresql'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-30T19:15:56.805369","level":"info","event":"Saved orders data in text file get_orders_20250530.txt","logger":"root"}
+{"timestamp":"2025-05-30T19:15:56.805785","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

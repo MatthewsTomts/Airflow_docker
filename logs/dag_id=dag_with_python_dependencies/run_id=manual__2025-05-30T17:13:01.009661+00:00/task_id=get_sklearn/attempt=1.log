@@ -1,0 +1,4 @@
+{"timestamp":"2025-05-30T17:13:02.194512","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-30T17:13:02.194942","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_with_python_dependencies.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-30T17:13:04.679168Z","level":"info","event":"scikit-learn version: 1.6.1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-30T17:13:04.679390","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}

@@ -1,0 +1,4 @@
+{"timestamp":"2025-06-06T17:13:13.596238","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-06T17:13:13.596667","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto_airflow/projeto_airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-06T17:13:14.208715","level":"error","event":"Task not found in DAG during start up","dag_id":"Projeto_postgres","task_id":"insertPostgres","bundle":"BundleInfo(name='dags-folder', version=None)","path":"projeto_airflow/projeto_airflow.py","logger":"task"}
+{"timestamp":"2025-06-06T17:13:14.234725Z","level":"warning","event":"Process exited abnormally","exit_code":1,"logger":"task"}

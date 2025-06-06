@@ -1,0 +1,14 @@
+{"timestamp":"2025-06-06T17:32:21.184525","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-06T17:32:21.185343","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto_airflow/projeto_airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-06T17:32:22.092780Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:32:23.330587Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:32:23.330919Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:32:23.331028Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:32:23.641629Z","level":"error","event":"25/06/06 17:32:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-06T17:32:29.705652Z","level":"info","event":"root","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:32:29.705778Z","level":"info","event":" |-- ID: integer (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:32:29.705822Z","level":"info","event":" |-- Age: integer (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:32:29.705861Z","level":"info","event":" |-- Email: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:32:29.705898Z","level":"info","event":" |-- JoinDate: date (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:32:29.705934Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:32:30.614155","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

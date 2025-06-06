@@ -1,0 +1,39 @@
+{"timestamp":"2025-06-01T00:00:00.594655","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-01T00:00:00.595069","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto1/projeto1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-01T00:00:01.385711Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-01T00:00:02.554671Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-01T00:00:02.554931Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-01T00:00:02.555021Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-01T00:00:02.831706Z","level":"error","event":"25/06/01 00:00:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481080Z","level":"info","event":"+---+---+-------------------+-------------------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481260Z","level":"info","event":"| ID|Age|              Email|           JoinDate|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481360Z","level":"info","event":"+---+---+-------------------+-------------------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481445Z","level":"info","event":"|  0| 52|     grace@mail.com|2023-05-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481520Z","level":"info","event":"|  1| 45|       bob@mail.com|2022-06-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481592Z","level":"info","event":"|  2| 41|  grace@example.com|2020-01-17 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481686Z","level":"info","event":"|  3| 38|   charlie@test.org|2022-07-24 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481758Z","level":"info","event":"|  4| 57|       eli@mail.com|2022-05-30 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481829Z","level":"info","event":"|  5| 20|     grace@mail.com|2022-12-12 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481899Z","level":"info","event":"|  8| 68|     grace@test.org|2023-06-14 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.481969Z","level":"info","event":"|  9| 55|       eli@test.org|2020-08-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482044Z","level":"info","event":"| 12| 27|    ian@example.com|2021-06-02 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482122Z","level":"info","event":"| 13| 43|    bob@example.com|2022-01-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482191Z","level":"info","event":"| 17| 26|     grace@mail.com|2023-01-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482248Z","level":"info","event":"| 18| 38|  grace@example.com|2022-12-02 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482308Z","level":"info","event":"| 19| 58|     frank@test.org|2022-05-18 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482372Z","level":"info","event":"| 21| 70|  frank@example.com|2021-01-24 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482443Z","level":"info","event":"| 22| 20|       ian@mail.com|2020-06-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482521Z","level":"info","event":"| 23| 45|user[at]example.com|2023-04-11 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482642Z","level":"info","event":"| 24| 26|  frank@example.com|2023-10-26 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482718Z","level":"info","event":"| 25| 37|user[at]example.com|2023-12-27 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482770Z","level":"info","event":"| 26| 58|   user[at]mail.com|2021-05-25 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482820Z","level":"info","event":"| 27| 36|    hannah@test.org|2020-06-23 00:00:00|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482870Z","level":"info","event":"+---+---+-------------------+-------------------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.482919Z","level":"info","event":"only showing top 20 rows","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.520254Z","level":"info","event":"root","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.520401Z","level":"info","event":" |-- ID: integer (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.520462Z","level":"info","event":" |-- Age: integer (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.520515Z","level":"info","event":" |-- Email: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.520566Z","level":"info","event":" |-- JoinDate: date (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:08.520636Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-01T00:00:09.190554","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

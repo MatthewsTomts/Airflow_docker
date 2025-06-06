@@ -1,0 +1,35 @@
+{"timestamp":"2025-05-31T16:43:28.310604","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T16:43:28.311052","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto1/projeto1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T16:43:28.665701Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:43:29.864638Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:43:29.864923Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:43:29.865030Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:43:30.542966Z","level":"error","event":"25/05/31 16:43:30 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.240982Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241126Z","level":"info","event":"| _c0|   _c1|    _c2|              _c3|       _c4|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241178Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241223Z","level":"info","event":"|  ID|  Name|    Age|            Email|  JoinDate|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241268Z","level":"info","event":"|   0|  NULL|     52|   grace@mail.com|2023-05-11|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241312Z","level":"info","event":"|ID_1|   Ian|unknown|     bob@mail.com|2022-06-18|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241361Z","level":"info","event":"|   2|  Dana|     41|grace@example.com|2020-01-17|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241408Z","level":"info","event":"|   3| Frank|     38| charlie@test.org|2022-07-24|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241455Z","level":"info","event":"|   4|Hannah|     57|     eli@mail.com|2022-05-30|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241500Z","level":"info","event":"|ID_5|   Eli|     20|   grace@mail.com|2022-12-12|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241547Z","level":"info","event":"|   6|  NULL|     53|  eli@example.com|      NULL|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241597Z","level":"info","event":"|   7|   Ian|     45|     ian@test.org|not_a_date|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241642Z","level":"info","event":"|   8|  Jill|     68|   grace@test.org|2023-06-14|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241688Z","level":"info","event":"|   9|Hannah|     55|     eli@test.org|2020-08-25|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241732Z","level":"info","event":"|  10| Alice|   NULL|grace@example.com|not_a_date|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241780Z","level":"info","event":"|  11|   Ian|     19| charlie@mail.com|not_a_date|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241845Z","level":"info","event":"|  12|   Eli|     27|  ian@example.com|2021-06-02|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241896Z","level":"info","event":"|  13| Grace|     43|  bob@example.com|2022-01-11|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.241944Z","level":"info","event":"|  14| Frank|     20|             NULL|2022-05-22|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.242000Z","level":"info","event":"|  15| Grace|     46|             NULL|2023-05-22|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.242044Z","level":"info","event":"|  16|  Jill|     27|     ian@test.org|2021/12/01|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.242086Z","level":"info","event":"|  17|   Bob|     26|   grace@mail.com|2023-01-18|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.242128Z","level":"info","event":"|  18|   Ian|     38|grace@example.com|2022-12-02|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.242170Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.242213Z","level":"info","event":"only showing top 20 rows","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.253836","level":"info","event":"Done. Returned value was: DataFrame[_c0: string, _c1: string, _c2: string, _c3: string, _c4: string]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-31T16:43:36.254044","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197273a-152a-72d8-b356-3e11e04b1f9e'), task_id='startSpark', dag_id='Projeto_postgres', run_id='manual__2025-05-31T16:38:24.740782+00:00', try_number=4, map_index=-1, hostname='dc8482ee7dd1', context_carrier=None, task=<Task(PythonOperator): startSpark>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=8, start_date=datetime.datetime(2025, 5, 31, 16, 43, 27, 968950, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-05-31T16:43:36.254450","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"TypeError","exc_value":"cannot serialize object of type <class 'pyspark.sql.classic.dataframe.DataFrame'>","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":849,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1193,"name":"_push_xcom_if_needed"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":526,"name":"_xcom_push"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/xcom.py","lineno":64,"name":"set"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/xcom.py","lineno":283,"name":"serialize_value"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/serialization/serde.py","lineno":185,"name":"serialize"}]}]}

@@ -1,0 +1,30 @@
+{"timestamp":"2025-05-31T16:57:38.712392","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T16:57:38.712901","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto1/projeto1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T16:57:39.090859Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:40.607438Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:40.607730Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:40.607911Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:41.348454Z","level":"error","event":"25/05/31 16:57:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937169Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937364Z","level":"info","event":"|  ID|  Name|    Age|            Email|  JoinDate|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937436Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937500Z","level":"info","event":"|   0|  NULL|     52|   grace@mail.com|2023-05-11|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937563Z","level":"info","event":"|ID_1|   Ian|unknown|     bob@mail.com|2022-06-18|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937626Z","level":"info","event":"|   2|  Dana|     41|grace@example.com|2020-01-17|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937681Z","level":"info","event":"|   3| Frank|     38| charlie@test.org|2022-07-24|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937738Z","level":"info","event":"|   4|Hannah|     57|     eli@mail.com|2022-05-30|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937798Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.937865Z","level":"info","event":"only showing top 5 rows","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.939152Z","level":"info","event":"root","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.939315Z","level":"info","event":" |-- ID: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.939389Z","level":"info","event":" |-- Name: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.939459Z","level":"info","event":" |-- Age: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.939523Z","level":"info","event":" |-- Email: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.939584Z","level":"info","event":" |-- JoinDate: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:46.939647Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:47.403600Z","level":"info","event":"ID 0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:47.590177Z","level":"info","event":"Name 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:47.757227Z","level":"info","event":"Age 8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:47.925024Z","level":"info","event":"Email 16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:48.065299Z","level":"info","event":"JoinDate 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:48.065991","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

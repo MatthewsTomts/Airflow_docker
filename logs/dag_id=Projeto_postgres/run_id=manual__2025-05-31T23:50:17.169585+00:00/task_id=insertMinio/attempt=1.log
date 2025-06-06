@@ -1,0 +1,6 @@
+{"timestamp":"2025-05-31T23:50:28.458515","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T23:50:28.458954","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto1/projeto1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T23:50:29.004820","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-31T23:50:29.027735","level":"info","event":"Connection Retrieved 'minioS3'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-31T23:50:29.027888","level":"info","event":"AWS Connection (conn_id='minioS3', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-05-31T23:50:29.691712","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
