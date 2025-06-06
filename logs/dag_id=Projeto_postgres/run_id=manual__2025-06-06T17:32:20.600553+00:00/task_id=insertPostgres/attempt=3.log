@@ -1,0 +1,21 @@
+{"timestamp":"2025-06-06T17:35:43.095420","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-06T17:35:43.095868","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto_airflow/projeto_airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-06T17:35:43.704474Z","level":"info","event":"['projeto_postgres_1.parquet']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.711763","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-06-06T17:35:43.718823","level":"info","event":"Connection Retrieved 'postgresql'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-06T17:35:43.720132Z","level":"info","event":"Engine(postgresql://airflow:***@postgres:5432/test)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.740880Z","level":"info","event":"    ID  Age              Email    JoinDate","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.740995Z","level":"info","event":"0    0   52     grace@mail.com  2023-05-11","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741040Z","level":"info","event":"1    1   45       bob@mail.com  2022-06-18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741081Z","level":"info","event":"2    2   41  grace@example.com  2020-01-17","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741120Z","level":"info","event":"3    3   38   charlie@test.org  2022-07-24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741157Z","level":"info","event":"4    4   57       eli@mail.com  2022-05-30","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741193Z","level":"info","event":"..  ..  ...                ...         ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741244Z","level":"info","event":"63  90   53     grace@mail.com  2020-02-16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741283Z","level":"info","event":"64  94   23      jill@mail.com  2023-03-09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741386Z","level":"info","event":"65  95   64     grace@mail.com  2021-04-30","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741433Z","level":"info","event":"66  96   30       eli@test.org  2022-08-10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741471Z","level":"info","event":"67  99   38    ian@example.com  2021-02-23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741507Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741545Z","level":"info","event":"[68 rows x 4 columns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-06T17:35:43.741288","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

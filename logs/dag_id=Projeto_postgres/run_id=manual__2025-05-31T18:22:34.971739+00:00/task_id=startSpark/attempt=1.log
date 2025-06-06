@@ -1,0 +1,33 @@
+{"timestamp":"2025-05-31T18:22:35.965299","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T18:22:35.965730","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto1/projeto1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T18:22:36.319409Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T18:22:37.599016Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T18:22:37.599328Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T18:22:37.599454Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T18:22:38.280169Z","level":"error","event":"25/05/31 18:22:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809142Z","level":"info","event":"+----+---+-------------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809331Z","level":"info","event":"|  ID|Age|              Email|  JoinDate|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809401Z","level":"info","event":"+----+---+-------------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809463Z","level":"info","event":"|   0| 52|     grace@mail.com|2023-05-11|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809519Z","level":"info","event":"|   2| 41|  grace@example.com|2020-01-17|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809576Z","level":"info","event":"|   3| 38|   charlie@test.org|2022-07-24|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809637Z","level":"info","event":"|   4| 57|       eli@mail.com|2022-05-30|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809692Z","level":"info","event":"|ID_5| 20|     grace@mail.com|2022-12-12|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809748Z","level":"info","event":"|   7| 45|       ian@test.org|not_a_date|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809803Z","level":"info","event":"|   8| 68|     grace@test.org|2023-06-14|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809889Z","level":"info","event":"|   9| 55|       eli@test.org|2020-08-25|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809947Z","level":"info","event":"|  11| 19|   charlie@mail.com|not_a_date|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810003Z","level":"info","event":"|  12| 27|    ian@example.com|2021-06-02|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810064Z","level":"info","event":"|  13| 43|    bob@example.com|2022-01-11|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810122Z","level":"info","event":"|  16| 27|       ian@test.org|2021/12/01|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810181Z","level":"info","event":"|  17| 26|     grace@mail.com|2023-01-18|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810237Z","level":"info","event":"|  18| 38|  grace@example.com|2022-12-02|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810292Z","level":"info","event":"|  19| 58|     frank@test.org|2022-05-18|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810347Z","level":"info","event":"|  21| 70|  frank@example.com|2021-01-24|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810403Z","level":"info","event":"|  22| 20|       ian@mail.com|2020-06-25|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810477Z","level":"info","event":"|  24| 26|  frank@example.com|2023-10-26|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810533Z","level":"info","event":"|  25| 37|user[at]example.com|2023-12-27|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810587Z","level":"info","event":"|  26| 58|   user[at]mail.com|2021-05-25|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810640Z","level":"info","event":"+----+---+-------------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.810697Z","level":"info","event":"only showing top 20 rows","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T18:22:43.809479","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"PySparkTypeError","exc_value":"[NOT_COLUMN_OR_STR] Argument `col` should be a Column or str, got NoneType.","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":838,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1130,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":212,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":235,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/projeto1/projeto1.py","lineno":24,"name":"start_spark"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/utils.py","lineno":282,"name":"wrapped"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/functions/builtin.py","lineno":1672,"name":"avg"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/functions/builtin.py","lineno":117,"name":"_invoke_function_over_columns"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/functions/builtin.py","lineno":117,"name":"<genexpr>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/classic/column.py","lineno":71,"name":"_to_java_column"}]}]}

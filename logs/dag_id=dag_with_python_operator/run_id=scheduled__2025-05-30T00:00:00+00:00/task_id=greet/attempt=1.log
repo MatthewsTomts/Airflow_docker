@@ -1,0 +1,4 @@
+{"timestamp":"2025-05-30T16:08:36.878036","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-30T16:08:36.878632","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-30T16:08:36.925217Z","level":"info","event":"Hello World!! My name is Violet Vohor and I'm 32 years old, I was born at 1993","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-30T16:08:36.925539","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

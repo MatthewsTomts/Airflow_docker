@@ -1,0 +1,13 @@
+{"timestamp":"2025-05-31T22:18:17.027972","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T22:18:17.028382","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto1/projeto1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T22:18:17.372785Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T22:18:18.503682Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T22:18:18.503942Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T22:18:18.504020Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T22:18:19.194011Z","level":"error","event":"25/05/31 22:18:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T22:18:24.406641Z","level":"info","event":"+---+---+-----+--------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T22:18:24.406801Z","level":"info","event":"| ID|Age|Email|JoinDate|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T22:18:24.406859Z","level":"info","event":"+---+---+-----+--------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T22:18:24.406916Z","level":"info","event":"+---+---+-----+--------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T22:18:24.406965Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T22:18:24.407277","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

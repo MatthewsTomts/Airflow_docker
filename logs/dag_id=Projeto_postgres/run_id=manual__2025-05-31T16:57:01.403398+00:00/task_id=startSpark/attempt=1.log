@@ -1,0 +1,25 @@
+{"timestamp":"2025-05-31T16:57:01.784986","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T16:57:01.785630","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/projeto1/projeto1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T16:57:02.149581Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:03.360030Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:03.360455Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:03.360572Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:04.141420Z","level":"error","event":"25/05/31 16:57:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.003908Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004094Z","level":"info","event":"|  ID|  Name|    Age|            Email|  JoinDate|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004168Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004227Z","level":"info","event":"|   0|  NULL|     52|   grace@mail.com|2023-05-11|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004285Z","level":"info","event":"|ID_1|   Ian|unknown|     bob@mail.com|2022-06-18|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004347Z","level":"info","event":"|   2|  Dana|     41|grace@example.com|2020-01-17|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004410Z","level":"info","event":"|   3| Frank|     38| charlie@test.org|2022-07-24|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004470Z","level":"info","event":"|   4|Hannah|     57|     eli@mail.com|2022-05-30|","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004529Z","level":"info","event":"+----+------+-------+-----------------+----------+","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.004582Z","level":"info","event":"only showing top 5 rows","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.006357Z","level":"info","event":"root","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.006527Z","level":"info","event":" |-- ID: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.006594Z","level":"info","event":" |-- Name: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.006660Z","level":"info","event":" |-- Age: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.006720Z","level":"info","event":" |-- Email: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.006778Z","level":"info","event":" |-- JoinDate: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.006863Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T16:57:10.032644","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"TypeError","exc_value":"'Column' object is not callable","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":838,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1130,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":212,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":235,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/projeto1/projeto1.py","lineno":26,"name":"start_spark"}]}]}
